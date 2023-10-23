@@ -1,23 +1,7 @@
-{
-  "tasks": [
-    {
-      "id": 1,
-      "title": "Task 1",
-      "description": "Description of Task 1",
-      "completed": false,
-      "dueDate": "2023-12-31", // Due date for the task
-      "priority": "High", // Task priority (e.g., High, Medium, Low)
-      "assignee": "John Doe", // Person assigned to the task
-      "tags": ["work", "important"], // Tags to categorize tasks
-      "subtasks": [
-        {
-          "id": 1,
-          "title": "Subtask 1",
-          "completed": true
-        },
-        // Add more subtasks as needed
-      ]
-    },
-    // Add more tasks as needed
-  ]
-}
+[
+    { "id": 1, "task": "Learn JavaScript" },
+    { "id": 2, "task": "Build a website" },
+    { "id": 3, "task": "Practice coding" },
+    { "id": 4, "task": "Read a book" },
+    { "id": 5, "task": "Exercise for 30 minutes" }
+]
