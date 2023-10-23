@@ -2,21 +2,22 @@
   "tasks": [
     {
       "id": 1,
-      "title": "",
+      "title": "Task 1",
       "description": "Description of Task 1",
-      "completed": false
+      "completed": false,
+      "dueDate": "2023-12-31", // Due date for the task
+      "priority": "High", // Task priority (e.g., High, Medium, Low)
+      "assignee": "John Doe", // Person assigned to the task
+      "tags": ["work", "important"], // Tags to categorize tasks
+      "subtasks": [
+        {
+          "id": 1,
+          "title": "Subtask 1",
+          "completed": true
+        },
+        // Add more subtasks as needed
+      ]
     },
-    {
-      "id": 2,
-      "title": "",
-      "description": "Description of Task 2",
-      "completed": true
-    },
-    {
-      "id": 3,
-      "title": "",
-      "description": "Description of Task 3",
-      "completed": false
-    }
+    // Add more tasks as needed
   ]
 }
