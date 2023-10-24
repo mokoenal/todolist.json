@@ -1,3 +1,16 @@
 [
-    
+  {
+    "task": "Buy groceries",
+    "completed": false
+  },
+  {
+    "task": "Finish homework",
+    "completed": true
+  },
+  {
+    "task": "Go to the gym",
+    "completed": false
+  }
 ]
+
+
